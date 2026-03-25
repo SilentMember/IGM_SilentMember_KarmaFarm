@@ -1,0 +1,40 @@
+Let's make a game!
+	name:Karma Farm
+	author name:SilentMember
+	desc:Money can't buy happiness, but it can buy karma, which is basically the same thing.
+	created:24/3/2026
+	updated:24/3/2026
+	version:0.01.000
+
+Settings
+	building cost increase:110%
+	building cost refund:55%
+
+Resources
+	*karma
+		name:Normal Karma|Plural Karma
+		desc:Karma is the Internet's currency of choice. Clout is the name of the gamne.
+		no tooltip
+	
+	*post
+		name:Normal Post|Plural Posts
+		desc:Sharing your thoughts with the world is the only way for the world to show its love for you.
+
+Buttons
+	*makePost
+		name:Write Posts
+		on click:yield 1 post
+		show clicks
+	
+	*upvote
+		name:Upvote
+		on click:yield 1 karma
+		show clicks
+		req: 1 post
+
+Buildings
+	*postScript
+		name:Normal Script|Plural Scripts
+		desc:Posting's hard work for the enterprising karma lover. Try automating it away with an automatic posting script.
+		on tick: yield 0.1 post
+		cost:10 karma
