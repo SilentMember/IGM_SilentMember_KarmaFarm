@@ -30,6 +30,7 @@ Buttons
 		name:Upvote
 		on click:yield 1 karma
 		show clicks
+		//req:1 post
 
 Buildings
 	*postScript
