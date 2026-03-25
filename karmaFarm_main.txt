@@ -1,6 +1,6 @@
 Let's make a game!
 	name:Karma Farm
-	author name:SilentMember
+	author:SilentMember
 	desc:Money can't buy happiness, but it can buy karma, which is basically the same thing.
 	created:24/3/2026
 	updated:24/3/2026
