@@ -36,5 +36,5 @@ Buildings
 	*postScript
 		name:Script|Scripts
 		desc:Posting's hard work for the enterprising karma lover. Try automating it away with an automatic posting script.
-		on tick: yield 0.1 post
+		on tick:yield 0.1 post
 		cost:10 karma
