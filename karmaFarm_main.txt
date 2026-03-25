@@ -12,12 +12,12 @@ Settings
 
 Resources
 	*karma
-		name:Normal Karma|Plural Karma
+		name:Karma|Karma
 		desc:Karma is the Internet's currency of choice. Clout is the name of the gamne.
 		no tooltip
 	
 	*post
-		name:Normal Post|Plural Posts
+		name:Post|Posts
 		desc:Sharing your thoughts with the world is the only way for the world to show its love for you.
 
 Buttons
@@ -34,7 +34,7 @@ Buttons
 
 Buildings
 	*postScript
-		name:Normal Script|Plural Scripts
+		name:Script|Scripts
 		desc:Posting's hard work for the enterprising karma lover. Try automating it away with an automatic posting script.
 		on tick: yield 0.1 post
 		cost:10 karma
